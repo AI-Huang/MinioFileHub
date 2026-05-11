@@ -1,4 +1,4 @@
-# MinIO Pipeline 后端项目
+# MinioFileHub 后端项目
 
 一个完整的 **MySQL + MinIO 文件上传与管理系统**，基于 FastAPI 构建，是针对 MySQL Service、MinIO Service 和 FastAPI 的模板工程（Template Project）。
 

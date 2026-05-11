@@ -326,7 +326,7 @@ wheels = [
 ]
 
 [[package]]
-name = "minio-pipeline"
+name = "minio-file-hub"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

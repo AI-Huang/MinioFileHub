@@ -17,6 +17,9 @@ class MinioObject(Base):
     # 主键
     id = Column(BIGINT, primary_key=True, autoincrement=True, comment="主键ID")
 
+    # 用户关联
+    user_id = Column(BIGINT, default=0, comment="上传用户ID")
+
     # 核心信息
     bucket_name = Column(VARCHAR(255), nullable=False, comment="存储桶名称")
     obj_key = Column(VARCHAR(1024), nullable=False, comment="对象路径/文件名（Key）")
